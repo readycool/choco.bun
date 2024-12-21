@@ -1,8 +1,8 @@
 $packageArgs = @{
   packageName    = "$env:ChocolateyPackageName"
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-  url64bit       = 'https://github.com/oven-sh/bun/releases/download/bun-v1.1.40/bun-windows-x64.zip'
-  checksum64     = 'b2420896f95588fde0afbc404def6c8883fa0e8c0bd613acf86f94aac86dcab467a81e28a70c349583ed2a581865e085b509804d819b7f07695813cb85c5eb19'
+  url64bit       = 'https://github.com/oven-sh/bun/releases/download/bun-v1.1.41/bun-windows-x64.zip'
+  checksum64     = '6aa606c3c040cf1fe94e6eae9ce345e8a4d0fdd6b1f12ee1e6d267ed484f06e5f076bf15e40b75d4fff34104e938ff01bb2fdeb5364038f070cc236f315bfd94'
   checksumType64 = 'sha512'
 }
 
