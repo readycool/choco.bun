@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>bun</id>
+    <version>1.2.0</version>
+    <packageSourceUrl>https://github.com/readycool/choco.bun</packageSourceUrl>
+    <owners>readycool</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Bun</title>
+    <authors>Oven</authors>
+    <projectUrl>https://bun.sh/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/readycool/choco.bun/master/bun.png</iconUrl>
+    <copyright>Copyright (c) Oven</copyright>
+    <licenseUrl>https://github.com/oven-sh/bun/blob/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/oven-sh/bun</projectSourceUrl>
+    <docsUrl>https://bun.sh/docs</docsUrl>
+    <tags>bun javascript typescript runtime</tags>
+    <summary>A fast all-in-one JavaScript runtime</summary>
+    <description>Develop, test, run, and bundle JavaScript &amp; TypeScript projects—all with Bun.
+
+Bun is an all-in-one JavaScript runtime &amp; toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.</description>
+    <releaseNotes>https://github.com/oven-sh/bun/compare/bun-v1.1.45...bun-v1.2.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
