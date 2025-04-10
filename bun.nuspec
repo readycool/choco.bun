@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>bun</id>
-    <version>1.2.8</version>
+    <version>1.2.9</version>
     <packageSourceUrl>https://github.com/readycool/choco.bun</packageSourceUrl>
     <owners>readycool</owners>
 
@@ -23,7 +23,7 @@
     <description>Develop, test, run, and bundle JavaScript &amp; TypeScript projects—all with Bun.
 
 Bun is an all-in-one JavaScript runtime &amp; toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.</description>
-    <releaseNotes>https://github.com/oven-sh/bun/compare/bun-v1.2.7...bun-v1.2.8</releaseNotes>
+    <releaseNotes>https://github.com/oven-sh/bun/compare/bun-v1.2.8...bun-v1.2.9</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
