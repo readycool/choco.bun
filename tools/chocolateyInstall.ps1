@@ -9,12 +9,12 @@ $packageArgs = @{
 }
 
 if ($avx2) {
-  $packageArgs.url64bit       = 'https://github.com/oven-sh/bun/releases/download/bun-v1.2.16/bun-windows-x64.zip'
-  $packageArgs.checksum64     = 'ea600fd48690f429af3ebf75fe4f3b51c8f86b97d04289741977ec3762f86222'
+  $packageArgs.url64bit       = 'https://github.com/oven-sh/bun/releases/download/bun-v1.2.17/bun-windows-x64.zip'
+  $packageArgs.checksum64     = '869a9401e119306459a4992e4b3655484c2541c93f0ae470fc8500a82d84fd4b'
   $packageArgs.checksumType64 = 'sha256'
 } else {
-  $packageArgs.url64bit       = 'https://github.com/oven-sh/bun/releases/download/bun-v1.2.16/bun-windows-x64-baseline.zip'
-  $packageArgs.checksum64     = 'd26d66d30a1796c417b77dd19e26c76916756e493e4738bf745da0e8057a20de'
+  $packageArgs.url64bit       = 'https://github.com/oven-sh/bun/releases/download/bun-v1.2.17/bun-windows-x64-baseline.zip'
+  $packageArgs.checksum64     = '803e6a7d8bed9063ef7833de036aca0d1a23e5d25cd7a8cf628cba50a3199f18'
   $packageArgs.checksumType64 = 'sha256'
 }
 
