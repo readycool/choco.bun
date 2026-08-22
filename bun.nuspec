@@ -4,26 +4,24 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>bun</id>
-    <version>1.3.14</version>
+    <version>1.4.0</version>
     <packageSourceUrl>https://github.com/readycool/choco.bun</packageSourceUrl>
     <owners>readycool</owners>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>Bun</title>
     <authors>Oven</authors>
-    <projectUrl>https://bun.sh/</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/readycool/choco.bun/master/bun.png</iconUrl>
+    <projectUrl>https://bun.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/readycool/choco.bun/bun.png</iconUrl>
     <copyright>Copyright (c) Oven</copyright>
     <licenseUrl>https://github.com/oven-sh/bun/blob/main/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/oven-sh/bun</projectSourceUrl>
-    <docsUrl>https://bun.sh/docs</docsUrl>
+    <docsUrl>https://bun.com/docs</docsUrl>
     <tags>bun javascript typescript runtime</tags>
     <summary>A fast all-in-one JavaScript runtime</summary>
-    <description>Develop, test, run, and bundle JavaScript &amp; TypeScript projects—all with Bun.
-
-Bun is an all-in-one JavaScript runtime &amp; toolkit designed for speed, complete with a bundler, test runner, and Node.js-compatible package manager.</description>
-    <releaseNotes>https://github.com/oven-sh/bun/compare/bun-v1.3.13...bun-v1.3.14</releaseNotes>
+    <description>Bun is a fast JavaScript runtime &amp; toolkit. All in one. Runtime, package manager, test runner and bundler in a single binary.</description>
+    <releaseNotes>https://bun.com/blog/bun-v1.4</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
