@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>bun</id>
-    <version>1.4.2</version>
+    <version>1.4.3</version>
     <packageSourceUrl>https://github.com/readycool/choco.bun</packageSourceUrl>
     <owners>readycool</owners>
 
@@ -21,7 +21,7 @@
     <tags>bun javascript typescript runtime</tags>
     <summary>A fast all-in-one JavaScript runtime</summary>
     <description>Bun is a fast JavaScript runtime &amp; toolkit. All in one. Runtime, package manager, test runner and bundler in a single binary.</description>
-    <releaseNotes>https://bun.com/blog/bun-v1.4.2</releaseNotes>
+    <releaseNotes>https://bun.com/blog/bun-v1.4.3</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
